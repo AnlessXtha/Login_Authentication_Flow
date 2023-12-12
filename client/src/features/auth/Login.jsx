@@ -58,7 +58,7 @@ const Login = () => {
     <section className="login">
       <p
         ref={errRef}
-        className={errMsg ? "errMsg" : offscreen}
+        className={errMsg ? "errMsg" : "offscreen"}
         aria-live="assertive"
       >
         {errMsg}
@@ -90,7 +90,7 @@ const Login = () => {
       </form>
     </section>
   );
-  return <div>Login</div>;
+  return content;
 };
 
 export default Login;
